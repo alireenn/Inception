@@ -13,7 +13,7 @@ RUN openssl req -newkey rsa:2048 \
 		# richiesta della creazione del certificato. Serve in caso di richiesta da fare al Certificate Authority (CA). NGINX la usa.
 		-sha256 -new -sha256 -tls1_2 -tls1_3 \
 		# protocolli supportati
-		-subj "C=IT/ST=Lazio/L=Rome/O=PDC/CN=mcerchi"
+		-subj "C=IT/ST=Lazio/L=Rome/O=PDC/CN=alazzari"
 
 COPY conf/default /etc/nginx
 
